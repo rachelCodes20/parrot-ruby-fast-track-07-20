@@ -27,5 +27,4 @@ parrot()
     expect(phrase).to eq("Pretty bird!")
   end
 end
-end
-end
+
