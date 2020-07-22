@@ -1,14 +1,14 @@
-require_relative './spec_helper'
-require_relative '../parrot.rb' # Code your solution in this file
+#require_relative './spec_helper'
+#require_relative '../parrot.rb' # Code your solution in this file
 
 
 def parrot(string = "Squawk!")
   
   puts "#{string}"
   
-  string
+ 
 end
-parrot()
+parrot(#{string})
 
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
