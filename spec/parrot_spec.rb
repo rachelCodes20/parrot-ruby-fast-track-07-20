@@ -6,9 +6,9 @@ def parrot(string = "Squawk!")
   
   puts "#{string}"
   
-  string
+  
 end
-parrot()
+parrot(string)
 
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
