@@ -8,7 +8,7 @@ def parrot(string = "Squawk!")
   
   string
 end
-parrot(#{string})
+parrot()
 
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
